@@ -1,0 +1,60 @@
+h1{
+    display: inline;
+}
+a{
+    display: block;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+    word-spacing: 16px;
+    font-size: 40px;
+    color: blue;
+    text-shadow:-1px 13px 20px purple;
+    font-weight: 100;
+}
+#mi:hover{
+    color: red;
+    font-size: 80px;
+    text-transform: uppercase;
+    transition:color 10s;
+
+}
+#csk:hover{
+    color: yellow;
+    font-size: 80px;
+    text-transform: uppercase;
+    transition:color 5s;
+
+}
+#msd{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: yellow;
+    letter-spacing: 20px;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 10px 6px 10px royalblue;
+
+}
+#vk{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:red;
+    letter-spacing: 20px;
+    font-size: 40px;
+    text-align:center;
+    text-shadow: 10px 6px 10px royalblue;
+
+}
+#rs{
+    text-decoration: none;
+    text-transform: small;
+    color: blue;
+    letter-spacing: 20px;
+    font-size: 40px;
+    text-align: right;
+    text-shadow: 10px 6px 10px yellowgreen;
+
+}

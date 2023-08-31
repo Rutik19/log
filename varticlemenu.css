@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color:rgba(245, 222, 179, 0.418);
+    width: 10%;
+    height: 100vh;
+}
+#cont{
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+} 
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    border-bottom: 2px solid black;
+}
+a:hover{
+    background-color: orchid;
+}
+/* #menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(137, 43, 226, 0.281);
+    position: relative;
+    display: none;
+} */
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(137, 43, 226, 0.397);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+#ip{
+   position: relative;
+}
+#ipmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#ip:hover #ipmenu{
+    display: block;
+}
+#op{
+    position: relative;
+ }
+ #opmenu1{
+     padding: 0;
+     list-style-type: none;
+     background-color:paleturquoise;
+     position: absolute;
+     top: 0%;
+     left: 100%;
+     width: 170%;
+     display: none;
+ }
+ #op:hover #opmenu1{
+     display: block;
+ }
+#sam{
+    position: relative;
+}
+#sammenu2{
+    padding: 0;
+    list-style-type: none;
+    background-color:indianred ;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#sam:hover #sammenu2{
+    display: block;
+}
+#nok{
+    position: relative;
+}
+#nokmenu3{
+    padding: 0;
+    list-style-type: none;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#nok:hover #nokmenu3{
+    display: block;
+}
+#mi{
+    position: relative;
+}
+#mimenu4{
+    padding: 0;
+    list-style-type: none;
+    background-color: bisque;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#mi:hover #mimenu4{
+    display: block;
+}

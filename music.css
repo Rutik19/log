@@ -1,0 +1,33 @@
+#YOUTUBE{
+    text-decoration: none;
+    color: red;
+    
+}
+body{
+    background-image: linear-gradient(rgb(134, 130, 130),rgb(185, 34, 34),rgb(211, 171, 96));
+    
+}
+#aa{
+    color: rgba(247, 12, 12, 0.89);
+}
+#list1{
+    background-image: linear-gradient(whitesmoke,purple);
+}
+#p{
+   text-align: justify;
+}
+#ai{
+    display: block;
+}
+#vi{
+    display: block;
+}
+#ss:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    transform: rotate(7200deg);
+    transition: transform 20s;
+}
+    
+    

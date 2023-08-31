@@ -1,0 +1,53 @@
+/* img{
+    position:sticky;
+    top: 0px;
+    left: 0px;
+} */
+/* div{
+    position: relative;
+} */
+/* h1{
+    position: sticky;
+    top:0px;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/mi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: whitesmoke;   
+}
+#cont{
+display: flex;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color:chocolate;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position:absolute;
+    /* top: 0px;
+    left: 0px; */
+    background-color:red;
+    display: none;
+}
+#drop{
+position: relative;
+}
+#drop:hover #menu{
+    display: block;
+
+}

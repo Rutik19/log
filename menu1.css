@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color:rgba(245, 245, 245, 0.531);
+    width: 10%;
+    height: 100vh;
+}
+#cont{
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+} 
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    border-bottom: 2px solid black;
+}
+a:hover{
+    background-color: rgba(160, 241, 85, 0.574);
+}
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(226, 43, 43, 0.522);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+#vp{
+   position: relative;
+}
+#vpmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(50, 155, 235, 0.542);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#vp:hover #vpmenu{
+    display: block;
+}
+#il{
+    position: relative;
+}
+#ilmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(16, 245, 245, 0.59);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#il:hover #ilmenu{
+    display: block;
+}
+#mw{
+    position: relative;
+}
+#mwmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(245, 16, 153, 0.59);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#mw:hover #mwmenu{
+    display: block;
+}
+#md{
+    position: relative;
+}
+#mdmenu{
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 16, 245, 0.59);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 170%;
+    display: none;
+}
+#md:hover #mdmenu{
+    display: block;
+}
+
+/* new drop and menu tab created for nonveg menu background change only */
+#drop1{
+    position: relative;
+}
+ #menu1{
+    list-style-type: none;
+    padding: 0px;
+    background-color:rgba(126, 252, 0, 0.608);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop1:hover #menu1{
+    display: block;
+} 
+#cb{
+    position: relative;
+ }
+ #cbmenu{
+     padding: 0;
+     list-style-type: none;
+     background-color: rgba(50, 155, 235, 0.542);
+     position: absolute;
+     top: 0%;
+     left: 100%;
+     width: 170%;
+     display: none;
+ }
+ #cb:hover #cbmenu{
+     display: block;
+ }
+  #ce{
+    position: relative;
+ }
+ #cemenu{
+     padding: 0;
+     list-style-type: none;
+     background-color: rgba(50, 235, 109, 0.542);
+     position: absolute;
+     top: 0%;
+     left: 100%;
+     width: 170%;
+     display: none;
+ }
+ #ce:hover #cemenu{
+     display: block;
+ }
+ #mr{
+    position: relative;
+ }
+ #mrmenu{
+     padding: 0;
+     list-style-type: none;
+     background-color: rgba(104, 52, 149, 0.542);
+     position: absolute;
+     top: 0%;
+     left: 100%;
+     width: 170%;
+     display: none;
+ }
+ #mr:hover #mrmenu{
+     display: block;
+ }   
